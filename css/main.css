@@ -46,10 +46,10 @@ h3 {
         float: left;
         width: calc(100% / 2);
         padding-right: 2.5em;
+        text-align: right;
     }
     .education h3,
-    .education p, {
-        text-align: right;
+    .education p {
         clear: both;
     }
     .education img {
@@ -58,8 +58,5 @@ h3 {
     .work {
         float: right;
         width: calc(100% / 2 - 2.5em);
-    }
-    .skills {
-        clear: both;
     }
 }
