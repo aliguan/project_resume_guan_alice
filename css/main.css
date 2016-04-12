@@ -59,4 +59,7 @@ h3 {
         float: right;
         width: calc(100% / 2 - 2.5em);
     }
+    .skills {
+        clear: both;
+    }
 }
