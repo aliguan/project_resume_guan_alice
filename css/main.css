@@ -7,6 +7,11 @@ body {
     font-size: 0.8em;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+}
+
 .hidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -28,7 +33,7 @@ h3 {
 
 .icon {
     max-width: 40px;
-    display: inline-block;
+    padding-bottom: 0.5em;
 }
 
 #interests {
@@ -42,10 +47,13 @@ h3 {
         width: calc(100% / 2);
         padding-right: 2.5em;
     }
-    .education h2,
     .education h3,
-    .education p {
+    .education p, {
         text-align: right;
+        clear: both;
+    }
+    .education img {
+        float: right;
     }
     .work {
         float: right;
