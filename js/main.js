@@ -191,3 +191,16 @@ var pathObj = {
     'strokeColor': 'black'
 } ).lazylinepainter( 'paint' );
  } );
+
+$( document ).ready( function() {
+    $( '#jide' ).tooltipster( {
+        content: $( '<ul>' +
+        '<li>Implemented experiments to ' +
+        ' test the effect of different autoimmune therapies on diabetic mice</li>' +
+        '<li>Organized and analyzed data from said experiments using Excel and ImageJ</li>' +
+        '<li>Performed DNA extractions, tail digestion, and PCR to confirm traits in mice</li>' +
+        '<li>Co-Author of <a href="http://www.ncbi.nlm.nih.gov/pubmed/23995958">' +
+        '“γ-Aminobutyric acid regulates ' +
+        'both the survival and replication of human β-cells.”</a></li></ul>' )
+ } );
+} );
