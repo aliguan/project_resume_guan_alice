@@ -47,19 +47,24 @@ p {
 #interests {
     width: 50%;
     min-width: 150px;
-    float: right;
     margin-top: 2em;
 }
 
 @media all and (min-width: 750px) {
     .container::after {
         content: '';
-        width: 0;
-        height: 100%;
+        width: 1px;
+        height: 93%;
         position: absolute;
-        border: 1px solid black;
         top: 35%;
         left: calc(100% / 2 + 1em);
+        background: black;
+    }
+    #interests {
+        float: right;
+    }
+    .content {
+        clear: both;
     }
     .education,
     .interests {
@@ -68,13 +73,10 @@ p {
         padding-right: 3em;
         text-align: right;
     }
-    .education h3,
-    .education p,
-    #interests {
-        clear: both;
-    }
+
     .education img,
     .interests img {
+        margin-bottom: 1em;
         float: right;
     }
     .work,
