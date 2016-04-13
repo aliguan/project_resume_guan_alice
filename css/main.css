@@ -23,12 +23,17 @@ body {
     width: 1px;
 }
 
+section {
+    margin: 2em 0;
+}
+
 h1 {
     font-weight: 300;
 }
 
 h3 {
     font-weight: 400;
+
 }
 
 .icon {
@@ -65,30 +70,71 @@ h3 {
 
 /* Skills Percentages */
 
-.prec {
-    top: 30px;
+.skillbar {
     position: relative;
-    font-size: 30px;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eeeeee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
 }
 
-.circle {
-    position: relative;
-    top: 5px;
-    left: 5px;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: white;
-}
-
-.active-border {
-    position: relative;
-    text-align: center;
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 110px;
-    height: 110px;
-    border-radius: 100%;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
 
-    background-color: #ecf0f1;
-    background-image: linear-gradient(180deg, transparent 50%, #7f8c8d 50%), linear-gradient(90deg, #7f8c8d 50%, transparent 50%);
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
 }
