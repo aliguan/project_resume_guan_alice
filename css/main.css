@@ -23,6 +23,18 @@ body {
     width: 1px;
 }
 
+header {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+header img {
+    width: 20%;
+    margin: auto;
+    display: block;
+}
+
 section {
     margin: 2em 0;
 }
@@ -41,7 +53,7 @@ p {
 
 .icon {
     max-width: 40px;
-    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
 }
 
 #interests {
@@ -54,9 +66,9 @@ p {
     .container::after {
         content: '';
         width: 1px;
-        height: 93%;
+        height: 85%;
         position: absolute;
-        top: 35%;
+        top: 50%;
         left: calc(100% / 2 + 1em);
         background: black;
     }
