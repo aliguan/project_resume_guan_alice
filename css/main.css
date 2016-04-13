@@ -48,7 +48,7 @@ h3 {
 
 @media all and (min-width: 750px) {
     .education,
-    .skills {
+    .interests {
         float: left;
         width: calc(100% / 2);
         padding-right: 2.5em;
@@ -62,7 +62,7 @@ h3 {
         float: right;
     }
     .work,
-    .interests {
+    .skills {
         float: right;
         width: calc(100% / 2 - 2.5em);
     }
