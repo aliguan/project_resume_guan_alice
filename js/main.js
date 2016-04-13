@@ -187,7 +187,7 @@ var pathObj = {
  $( '#interests' ).lazylinepainter(
  {
     'svgData': pathObj,
-    'strokeWidth': 2,
-    'strokeColor': '#e09b99'
+    'strokeWidth': 3,
+    'strokeColor': 'black'
 } ).lazylinepainter( 'paint' );
  } );
