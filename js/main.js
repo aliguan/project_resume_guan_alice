@@ -203,4 +203,26 @@ $( document ).ready( function() {
         '“γ-Aminobutyric acid regulates ' +
         'both the survival and replication of human β-cells.”</a></li></ul>' )
  } );
+    $( '#apple' ).tooltipster( {
+         content: $( '<ul>' +
+         '<li>Provide excellent customer service ' +
+         ' to fix Apple Devices</li>' +
+         '<li>Troubleshoot devices to find the correct solution for customer</li>' +
+         '<li>Maintain the flow of business by scheduling 250 employees for the sales ' +
+         'floor according to business needs</li>' +
+         '<li>Influence coworkers and provide them with feedback on what to improve</li></ul>' )
+} );
+    $( '#sfcpa' ).tooltipster( {
+         content: $( '<ul>' +
+         '<li>Designed and created website (thesfcpa.com) via Wordpress</li>' +
+         '<li>Co-wrote grant proposal for Knight Arts Challenge: Miami (2014 Grant Winner)</li>' +
+         '<li>Manage social media, create event flyers/descriptions, SEO/Web Analytics</li></ul>' )
+
+} );
+    $( '#portsites' ).tooltipster( {
+        content: $( '<ul>' +
+        '<li>aliceguandesign.com</li>' +
+        '<li>http://aliceguandesign.com/blog</li>' +
+        '</ul>' )
+} );
 } );
