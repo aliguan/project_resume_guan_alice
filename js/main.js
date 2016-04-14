@@ -225,4 +225,7 @@ $( document ).ready( function() {
         '<li>http://aliceguandesign.com/blog</li>' +
         '</ul>' )
 } );
+    $( '.tooltip' ).tooltipster( {
+        theme: 'tooltipster-shadow'
+} );
 } );
