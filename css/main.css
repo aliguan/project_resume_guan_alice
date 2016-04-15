@@ -33,30 +33,33 @@ section {
     margin: 2em 0;
 }
 
-.contact {
+#center {
+    width: 50%;
     margin: auto;
+}
+
+.contact {
+    width: 50%;
+    margin: auto;
+    padding-left: 5em;
+}
+
+.contact ul {
+    padding: 0;
     width: 100%;
+    margin: auto;
+}
+
+.contact li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5em;
 }
 
 .contact img {
     max-width: 50px;
-}
-
-.contact h4 {
-    display: inline-block;
-    margin-left: 1em;
-}
-
-.contact ul {
     margin: auto;
-    width: 100%;
-    padding: 0;
-}
-
-.contact li {
-    display: inline;
-    text-decoration: none;
-    margin-left: 1em;
+    padding-left: 1.5em;
 }
 
 h1 {
@@ -130,6 +133,7 @@ p {
         height: 50em;
     }
 }
+
 /* Skills Percentages */
 
 .skillbar {
