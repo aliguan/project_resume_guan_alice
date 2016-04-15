@@ -49,13 +49,14 @@ section {
 
 .contact ul {
     margin: auto;
-    width: 50%;
+    width: 100%;
+    padding: 0;
 }
 
 .contact li {
     display: inline;
     text-decoration: none;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 h1 {
@@ -249,4 +250,9 @@ p {
     #interests {
         width: 100%;
     }
+}
+
+#me {
+    width: 100%;
+    margin: auto;
 }
