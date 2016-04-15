@@ -1,3 +1,5 @@
+// Call to Tipr plugin for tooltip hovers
+
 $( document ).ready( function() {
      $( '.tip' ).tipr( {
          'speed': 400
@@ -260,7 +262,7 @@ $( '#name' ).one( 'mouseenter',
     $( this ).fadeOut( 100 );
     $( '<div id="me">' +
     '<img src="img/me.png" width="15%" style="margin: auto;' +
-    ' display: block;"/></div>' ).insertBefore( '#name' );
+    ' display: block; min-width:150px;"/></div>' ).insertBefore( '#name' );
     $( this ).fadeIn( 500 );
 
 } );
