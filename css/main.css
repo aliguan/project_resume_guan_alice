@@ -82,9 +82,15 @@ p {
 
 @media (min-width: 750px) {
     #me {
-        width: 20%;
-        margin-left: 25em;
-        display: block;
+        float: left;
+    }
+    #me img {
+        width: 100%;
+        max-width: 200px;
+    }
+    #name {
+        width: calc(100% / 3 * 2);
+        margin: auto;
     }
     .container::after {
         content: '';
