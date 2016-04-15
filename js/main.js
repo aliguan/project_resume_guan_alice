@@ -285,7 +285,7 @@ $( document ).ready( function() {
 } );
 
 /* Custom jQuery Function
-This will add my picture after you hover on my name. It will run only once. */
+This will add my picture above my name when you hover on it. It will run only once. */
 
 $( '#name' ).one( 'mouseenter',
     function() {
