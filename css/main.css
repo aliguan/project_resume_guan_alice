@@ -29,10 +29,27 @@ header {
     padding-bottom: 2em;
 }
 
-header img {
-    width: 20%;
-    margin: auto;
+
+@media (max-width: 749px) {
+    #me {
+        width: 20%;
+        margin: auto;
+        display: block;
+        min-width: 150px;
+    }
+}
+
+header div {
+
     display: block;
+    margin: auto;
+}
+
+.phone,
+.mailbox {
+    max-width: 30px;
+    display: inline-block;
+    padding: 0.5em;
 }
 
 section {
@@ -54,6 +71,7 @@ p {
 .icon {
     max-width: 40px;
     margin-bottom: 1.5em;
+    display: inline;
 }
 
 #interests {
@@ -62,14 +80,19 @@ p {
     margin-top: 2em;
 }
 
-@media all and (min-width: 750px) {
+@media (min-width: 750px) {
+    #me {
+        width: 20%;
+        margin-left: 25em;
+        display: block;
+    }
     .container::after {
         content: '';
         width: 1px;
         position: absolute;
         left: calc(100% / 2 + 1.5em);
         background: black;
-        height: 60em;
+        height: 50em;
     }
     #interests {
         float: right;
