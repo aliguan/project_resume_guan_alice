@@ -290,14 +290,9 @@ This will add my picture after you hover on my name. It will run only once. */
 $( '#name' ).one( 'mouseenter',
     function() {
     $( this ).fadeOut( 100 );
-    $( this ).append( $( '<div id="me">' +
-    '<img src="img/me.png" width="20%"/></div>' ) );
+    $( '<div id="me">' +
+    '<img src="img/me.png" width="15%" style="margin: auto;' +
+    ' display: block;"/></div>' ).insertBefore( '#name' );
     $( this ).fadeIn( 500 );
 
-} );
-
-/* Will remove my picture after mouse leaves */
-
-$( '#name' ).one( 'mouseleave', function() {
-    $( '#me' ).remove();
 } );
