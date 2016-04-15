@@ -232,7 +232,7 @@ p {
     z-index: 999;
 }
 
-@media (max-width: 715px) {
+@media all and (max-width: 715px) {
     .contact ul {
         margin: 0;
         width: 100%;
@@ -253,5 +253,11 @@ p {
     }
     #interests {
         width: 100%;
+    }
+    #center {
+        width: 100%;
+    }
+    #center img {
+        max-width: 35px;
     }
 }
